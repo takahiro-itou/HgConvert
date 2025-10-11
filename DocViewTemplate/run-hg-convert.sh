@@ -1,6 +1,16 @@
-#!/bin/bash  -xue
+#!/bin/bash
 
-hg convert -s hg-omit-subrepos Unconv-DocViewTemplate DocViewTemplate.conv
-rm -rf DocViewTemplate.main
-hg convert -s hg-omit-subrepos DocViewTemplate.conv DocViewTemplate.main
-cp -pv hgrc DocViewTemplate.main/.hg/hgrc
+set  -xue
+
+hg=$(which hg)
+conv_src='hg-omit-subrepos'
+
+project=DocViewTemplate
+
+
+"${hg}" convert -s "${conv_src}"  "Unconv-${project}"  "${project}.conv"
+
+rm -rf "${project}.main"
+"${hg}" convert -s "${conv_src}"  "${project}.conv"  "${project}.main"
+
+cp -pv  'hgrc'  "${project}.main/.hg/hgrc"
