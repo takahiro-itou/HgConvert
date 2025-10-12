@@ -1,0 +1,16 @@
+
+# リモートリポジトリ
+[paths]
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/HouseholdAccounts.git
+bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/HouseholdAccounts.git
+default     =  ssh://hgvagrant-docker/repos/HouseholdAccounts
+vagdevelop  =  ssh://hgvagrant-develop/repos/HouseholdAccounts
+vagcentos   =  ssh://hgvagrant-centos7/repos/HouseholdAccounts
+
+# ユーザー
+[ui]
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
+
+# エクステンション
+[extensions]
+#hggit       =

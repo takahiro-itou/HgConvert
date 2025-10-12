@@ -1,0 +1,16 @@
+
+# リモートリポジトリ
+[paths]
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/LibraryTemplate.git
+bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/LibraryTemplate.git
+default     =  ssh://hgvagrant-docker/repos/LibraryTemplate
+vagdevelop  =  ssh://hgvagrant-develop/repos/LibraryTemplate
+vagcentos   =  ssh://hgvagrant-centos7/repos/DocViewTemplate
+
+# ユーザー
+[ui]
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
+
+# エクステンション
+[extensions]
+#hggit       =
