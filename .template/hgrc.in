@@ -1,0 +1,16 @@
+
+# リモートリポジトリ
+[paths]
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/DocViewTemplate.git
+bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/DocViewTemplate.git
+default     =  ssh://hgvagrant-docker/repos/DocViewTemplate
+vagdevelop  =  ssh://hgvagrant-develop/repos/DocViewTemplate
+vagcentos   =  ssh://hgvagrant-centos7/repos/DocViewTemplate
+
+# ユーザー
+[ui]
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
+
+# エクステンション
+[extensions]
+#hggit       =
