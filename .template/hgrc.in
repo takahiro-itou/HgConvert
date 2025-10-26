@@ -1,11 +1,11 @@
 
 # リモートリポジトリ
 [paths]
-GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/DocViewTemplate.git
-bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/DocViewTemplate.git
-default     =  ssh://hgvagrant-docker/repos/DocViewTemplate
-vagdevelop  =  ssh://hgvagrant-develop/repos/DocViewTemplate
-vagcentos   =  ssh://hgvagrant-centos7/repos/DocViewTemplate
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/@REPO_NAME@.git
+bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/@REPO_NAME@.git
+default     =  ssh://hgvagrant-docker/repos/@REPO_NAME@
+vagdevelop  =  ssh://hgvagrant-develop/repos/@REPO_NAME@
+vagcentos   =  ssh://hgvagrant-centos7/repos/@REPO_NAME@
 
 # ユーザー
 [ui]
