@@ -6,6 +6,7 @@ bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/DocViewTemplate.g
 default     =  ssh://hgvagrant-docker/repos/DocViewTemplate
 vagdevelop  =  ssh://hgvagrant-develop/repos/DocViewTemplate
 vagcentos   =  ssh://hgvagrant-centos7/repos/DocViewTemplate
+LocalDisk   =  E:\LocalRepos\Mercurial\Open\DocViewTemplate
 
 # ユーザー
 [ui]

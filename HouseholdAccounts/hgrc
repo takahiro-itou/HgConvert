@@ -6,6 +6,7 @@ bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/HouseholdAccounts
 default     =  ssh://hgvagrant-docker/repos/HouseholdAccounts
 vagdevelop  =  ssh://hgvagrant-develop/repos/HouseholdAccounts
 vagcentos   =  ssh://hgvagrant-centos7/repos/HouseholdAccounts
+LocalDisk   =  E:\LocalRepos\Mercurial\Open\HouseholdAccounts
 
 # ユーザー
 [ui]
