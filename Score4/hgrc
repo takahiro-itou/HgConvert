@@ -6,6 +6,7 @@ bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/Score4.git
 default     =  ssh://hgvagrant-docker/repos/Score4
 vagdevelop  =  ssh://hgvagrant-develop/repos/Score4
 vagcentos   =  ssh://hgvagrant-centos7/repos/Score4
+LocalDisk   =  E:\LocalRepos\Mercurial\Open\Score4
 
 # ユーザー
 [ui]
