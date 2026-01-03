@@ -6,6 +6,7 @@ bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/Settings.git
 default     =  ssh://hgvagrant-docker/repos/Settings
 vagdevelop  =  ssh://hgvagrant-develop/repos/Settings
 vagcentos   =  ssh://hgvagrant-centos7/repos/Settings
+LocalDisk   =  E:\LocalRepos\Mercurial\Open\Settings
 
 # ユーザー
 [ui]
