@@ -22,6 +22,8 @@ jobs :
       - name : Re-Generate Files.
         run  : |
           hg --version || :
+          ./initwd.sh DocViewTemplate
+          ./initwd.sh LibraryTemplate
         shell : bash
 
       - name : Check Generated Files Hash
@@ -31,7 +33,7 @@ jobs :
 
 on :
   push :
-    branches : [ "master", "develop" ]
+    branches : [ "master", "develop", "Topic/0001-UpdateActions" ]
   pull_request :
     branches : [ "master", "develop" ]
   workflow_dispatch :
