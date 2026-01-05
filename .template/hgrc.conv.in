@@ -1,0 +1,13 @@
+
+# リモートリポジトリ
+[paths]
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-convert-hggit/@REPO_NAME@.git
+default     =  ssh://hgvagrant-docker/repos/@REPO_NAME@
+
+# ユーザー
+[ui]
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
+
+# エクステンション
+[extensions]
+#hggit       =
