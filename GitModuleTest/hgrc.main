@@ -1,0 +1,17 @@
+
+# リモートリポジトリ
+[paths]
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/GitModuleTest.git
+bitBucket   =  git+ssh://git@bucket.org:takahiro-itou-hggit/GitModuleTest.git
+default     =  ssh://hgvagrant-docker/repos/GitModuleTest
+vagdevelop  =  ssh://hgvagrant-develop/repos/GitModuleTest
+vagcentos   =  ssh://hgvagrant-centos7/repos/GitModuleTest
+LocalDisk   =  E:\LocalRepos\Mercurial\Open\GitModuleTest
+
+# ユーザー
+[ui]
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
+
+# エクステンション
+[extensions]
+#hggit       =
