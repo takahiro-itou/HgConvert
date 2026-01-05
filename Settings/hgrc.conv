@@ -1,0 +1,17 @@
+
+# リモートリポジトリ
+[paths]
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/Settings.git
+bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/Settings.git
+default     =  ssh://hgvagrant-docker/repos/Settings
+vagdevelop  =  ssh://hgvagrant-develop/repos/Settings
+vagcentos   =  ssh://hgvagrant-centos7/repos/Settings
+LocalDisk   =  E:\LocalRepos\Mercurial\Open\Settings
+
+# ユーザー
+[ui]
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
+
+# エクステンション
+[extensions]
+#hggit       =
