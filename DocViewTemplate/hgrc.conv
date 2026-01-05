@@ -1,0 +1,13 @@
+
+# リモートリポジトリ
+[paths]
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-convert-hggit/convert-DocViewTemplate.git
+default     =  ssh://hgvagrant-docker/repos/DocViewTemplate
+
+# ユーザー
+[ui]
+username    =  Takahiro Itou <2526395-takahiro-itou@users.noreply.gitlab.com>
+
+# エクステンション
+[extensions]
+#hggit       =
