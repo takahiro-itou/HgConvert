@@ -1,0 +1,37 @@
+
+name : Check Template
+
+jobs :
+  build :
+    runs-on : ubuntu-latest
+    strategy :
+      fail-fast : false
+
+    steps :
+      - name : Checkout
+        uses : actions/checkout@v4
+        with :
+          submodules : recursive
+
+      - name : Compute Current Hash
+        run  : |
+          find . -name "hgrc.*"  -exec sha256sum -b {} \; | tee    Hash.sha256
+          find . -name "run*.sh" -exec sha256sum -b {} \; | tee -a Hash.sha256
+        shell : bash
+
+      - name : Re-Generate Files.
+        run  : |
+          hg --version || :
+        shell : bash
+
+      - name : Check Generated Files Hash
+        run  : |
+          sha256sum -c Hash.sha256
+        shell : bash
+
+on :
+  push :
+    branches : [ "master", "develop" ]
+  pull_request :
+    branches : [ "master", "develop" ]
+  workflow_dispatch :
