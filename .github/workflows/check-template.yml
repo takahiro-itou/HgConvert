@@ -23,7 +23,11 @@ jobs :
         run  : |
           hg --version || :
           ./initwd.sh DocViewTemplate
+          ./initwd.sh GitModuleTest
+          ./initwd.sh HouseholdAccounts
           ./initwd.sh LibraryTemplate
+          ./initwd.sh Score4
+          ./initwd.sh Settings
         shell : bash
 
       - name : Check Generated Files Hash
