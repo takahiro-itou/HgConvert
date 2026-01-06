@@ -5,7 +5,7 @@ set  -xue
 hg=$(which hg)
 conv_src='hg-omit-subrepos'
 
-project=GitModuleTest
+project='GitModuleTest'
 
 
 "${hg}" convert -s "${conv_src}"  "Unconv-${project}"  "${project}.conv"
