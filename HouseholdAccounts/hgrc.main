@@ -2,7 +2,7 @@
 # リモートリポジトリ
 [paths]
 GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/HouseholdAccounts.git
-bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/HouseholdAccounts.git
+bitBucket   =  git+ssh://git@bucket.org:takahiro-itou-hggit/HouseholdAccounts.git
 default     =  ssh://hgvagrant-docker/repos/HouseholdAccounts
 vagdevelop  =  ssh://hgvagrant-develop/repos/HouseholdAccounts
 vagcentos   =  ssh://hgvagrant-centos7/repos/HouseholdAccounts

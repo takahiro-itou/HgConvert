@@ -1,12 +1,8 @@
 
 # リモートリポジトリ
 [paths]
-GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/HouseholdAccounts.git
-bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/HouseholdAccounts.git
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-convert-hggit/convert-HouseholdAccounts.git
 default     =  ssh://hgvagrant-docker/repos/HouseholdAccounts
-vagdevelop  =  ssh://hgvagrant-develop/repos/HouseholdAccounts
-vagcentos   =  ssh://hgvagrant-centos7/repos/HouseholdAccounts
-LocalDisk   =  E:\LocalRepos\Mercurial\Open\HouseholdAccounts
 
 # ユーザー
 [ui]
