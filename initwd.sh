@@ -2,7 +2,7 @@
 
 set  -ue
 
-project=$1
+project=${1%%/}
 trg_dir=${2:-"${project}"}
 
 sed -e "s:@REPO_NAME@:${project}:g" .template/hgrc.main.in  \
