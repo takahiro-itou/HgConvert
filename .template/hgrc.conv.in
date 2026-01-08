@@ -1,7 +1,7 @@
 
 # リモートリポジトリ
 [paths]
-GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-convert-hggit/@REPO_NAME@.git
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-convert-hggit/convert-@REPO_NAME@.git
 default     =  ssh://hgvagrant-docker/repos/@REPO_NAME@
 
 # ユーザー

@@ -2,7 +2,7 @@
 # リモートリポジトリ
 [paths]
 GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/LibraryTemplate.git
-bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/LibraryTemplate.git
+bitBucket   =  git+ssh://git@bucket.org:takahiro-itou-hggit/LibraryTemplate.git
 default     =  ssh://hgvagrant-docker/repos/LibraryTemplate
 vagdevelop  =  ssh://hgvagrant-develop/repos/LibraryTemplate
 vagcentos   =  ssh://hgvagrant-centos7/repos/LibraryTemplate
