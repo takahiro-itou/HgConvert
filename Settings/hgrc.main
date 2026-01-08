@@ -2,7 +2,7 @@
 # リモートリポジトリ
 [paths]
 GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/Settings.git
-bitBucket   =  git+ssh://git@bitbucket.org:takahiro-itou-hggit/Settings.git
+bitBucket   =  git+ssh://git@bucket.org:takahiro-itou-hggit/Settings.git
 default     =  ssh://hgvagrant-docker/repos/Settings
 vagdevelop  =  ssh://hgvagrant-develop/repos/Settings
 vagcentos   =  ssh://hgvagrant-centos7/repos/Settings

@@ -1,12 +1,8 @@
 
 # リモートリポジトリ
 [paths]
-GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-hggit/GitModuleTest.git
-bitBucket   =  git+ssh://git@bucket.org:takahiro-itou-hggit/GitModuleTest.git
+GitLab      =  git+ssh://git@gitlab.com:takahiro-itou-convert-hggit/convert-GitModuleTest.git
 default     =  ssh://hgvagrant-docker/repos/GitModuleTest
-vagdevelop  =  ssh://hgvagrant-develop/repos/GitModuleTest
-vagcentos   =  ssh://hgvagrant-centos7/repos/GitModuleTest
-LocalDisk   =  E:\LocalRepos\Mercurial\Open\GitModuleTest
 
 # ユーザー
 [ui]
